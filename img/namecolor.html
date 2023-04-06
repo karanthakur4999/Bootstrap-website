@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .box{
+        background-color: rgb(64, 78, 78);
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .h1{
+
+        font-size: 70PX;
+        text-transform: uppercase;
+        font-family: cursive;
+         color: chartreuse;
+         position: relative;
+         visibility: hidden;
+        
+        animation: slider 5s linear infinite;
+        overflow: hidden;
+        
+    
+    }
+     
+    @keyframes slider{
+        0%{
+            width: 0%;
+            visibility: visible;
+        }
+        100%{
+            width: 100%;
+
+        }
+    }
+
+</style>
+
+</head>
+<body>
+    <div class="box">
+        <h1 style="h1">karan thakur</h1>
+    </div>
+    
+</body>
+</html>
